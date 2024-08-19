@@ -1,4 +1,9 @@
 # Custom URL scheme Cordova/PhoneGap Plugin
+
+### Fork of https://github.com/EddyVerbruggen/Custom-URL-scheme
+
+- Fixes issue of `handleOpenURL` not being called in latest versions of iOS.
+
 #### launch your app by a link like this: `mycoolapp://`
 
 [![NPM version][npm-image]][npm-url]

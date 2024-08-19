@@ -1,19 +1,17 @@
 {
-  "name": "cordova-plugin-customurlscheme",
-  "version": "5.0.2",
+  "name": "cordova-plugin-customurlscheme-patch",
+  "version": "5.0.5",
   "description": "Launch your app by using this URL:  mycoolapp://, you can add a path and even pass params like this: mycoolerapp://somepath?foo=bar",
   "cordova": {
-    "id": "cordova-plugin-customurlscheme",
+    "id": "cordova-plugin-customurlscheme-patch",
     "platforms": [
       "ios",
-      "android",
-      "windows8",
-      "windows"
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/Custom-URL-scheme.git"
+    "url": "https://github.com/ipunkvizard/cordova-plugin-customurlscheme"
   },
   "keywords": [
     "Custom URL Scheme",
@@ -24,9 +22,7 @@
     "Launch App",
     "ecosystem:cordova",
     "cordova-ios",
-    "cordova-android",
-    "cordova-windows",
-    "cordova-windows8"
+    "cordova-android"
   ],
   "engines": [
     {
@@ -37,7 +33,7 @@
   "author": "Eddy Verbruggen <eddyverbruggen@gmail.com> (https://github.com/EddyVerbruggen)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EddyVerbruggen/Custom-URL-scheme/issues"
+    "url": "https://github.com/ipunkvizard/cordova-plugin-customurlscheme/issues"
   },
-  "homepage": "https://github.com/EddyVerbruggen/Custom-URL-scheme#readme"
+  "homepage": "https://github.com/ipunkvizard/cordova-plugin-customurlscheme#readme"
 }
